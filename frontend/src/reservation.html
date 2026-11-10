@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reservations – SH27 Restaurant & Bar</title>
+<meta name="description" content="Book a table at SH27 in Gulshan, Dhaka.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body data-page="reservation">
+<div id="site-header"></div>
+
+<section class="hero page"><div class="bg" style="background-image:url(/images/table.jpg)"></div><div class="wrap">
+<div class="eyebrow fade-in">Right here, waiting</div>
+<h1><span class="ln"><span>Book a <i>Table</i></span></span></h1>
+<p class="fade-in" style="--i:3">We keep a table by the window for every occasion, big or small.</p></div></section>
+
+<section class="visit"><div class="wrap grid">
+<div data-reveal="left"><div class="eyebrow">Good to know</div><h2>Before you book</h2>
+<ul class="info-list">
+<li><span class="ic">◆</span><div><b>Opening hours</b><span style="color:#c9bca6">Mon–Fri 09:00–22:00 · Sat 11:00–00:00 · Sun 11:00–23:00</span></div></li>
+<li><span class="ic">◆</span><div><b>Happy hour</b><span style="color:#c9bca6">Every day 17:00–21:00 at the bar</span></div></li>
+<li><span class="ic">◆</span><div><b>Large groups</b><span style="color:#c9bca6">For more than 8 guests please call +880 1700 000027</span></div></li>
+</ul></div>
+<div data-reveal="right"><form class="book" id="bf" novalidate><h3>Reserve your table</h3>
+<select name="guests" aria-label="Guests"><option value="2">2 People</option><option value="1">1 Person</option><option value="3">3 People</option><option value="4">4 People</option><option value="5">5 People</option><option value="6">6 People</option><option value="8">8 People</option></select>
+<input type="date" name="date" required aria-label="Date">
+<select name="time" aria-label="Time"><option>7:00 pm</option><option>12:00 pm</option><option>1:00 pm</option><option>6:00 pm</option><option>8:00 pm</option><option>9:00 pm</option></select>
+<input name="name" placeholder="Your name" required>
+<input type="email" name="email" placeholder="Email address" required>
+<input type="tel" name="phone" placeholder="Phone number">
+<textarea class="full" name="notes" placeholder="Occasion or allergies (optional)"></textarea>
+<button class="btn fill full" type="submit">Book Now</button><div class="ok" role="status"></div></form></div>
+</div></section>
+
+<div id="site-footer"></div>
+<script type="module" src="/js/main.js"></script>
+</body>
+</html>
